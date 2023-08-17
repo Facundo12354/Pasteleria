@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+header {
+  min-height: 30vh;
+  background-image: url(../images/imagen1.jpg);
+  object-fit: cover;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  width: 350px;
+  text-align: end;
+  font-size: 3.5rem;
+}
+.bar-navagation {
+  height: 15vh;
+  border-right: 10px;
+  color: black;
+}
+.bar-navagation a {
+  padding: 10px;
+  gap: 5px;
+  color: black;
+}
+.home {
+  color: coral !important;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+}
+span {
+  color: coral;
+}
+main h2 {
+  display: flex;
+  text-align: center;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+.bar-navegation-welcome {
+  text-align: center;
+  height: 5vh;
+}
+.bar-navegation-welcome a {
+  color: black;
+}
+main {
+  gap: 4rem;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.best {
+  color: coral !important;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+}
+.conteiner-menu img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.welcome {
+  text-align: center;
+  min-height: 15vh;
+}
+.welcome h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.cash-usd {
+  display: flex;
+
+  justify-content: space-between;
+}
+footer {
+  min-height: 15vh;
+  background-color: rgb(229, 231, 234);
+}
+form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 15vh;
+}
+@media (max-width: 320px) {
+  .main {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .conteiner-menu {
+    width: 15rem;
+  }
+  .conteiner-menu img {
+    width: 15rem;
+    height: 15rem;
+  }
+  footer {
+    height: 20vh;
+  }
+  form {
+    height: 20vh;
+  }
+}
+@media (max-width: 768px) {
+  .conteiner-menu img {
+    width: 15rem;
+    height: 15rem;
+  }
+  h1 {
+    text-align: center;
+  }
+}
